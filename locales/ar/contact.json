@@ -1,0 +1,38 @@
+{
+  "title": "هل أنت مستعد لتحويل عملك؟",
+  "subtitle": "دعنا نناقش كيف يمكن لـ CogniTechX مساعدتك في تحقيق أهداف التحول الرقمي. املأ النموذج أدناه وسنعاود الاتصال بك في أقرب وقت ممكن.",
+  "location": {
+    "title": "موقع المكتب",
+    "address": "دويسبورغ، 47057، ألمانيا"
+  },
+  "email": {
+    "title": "البريد الإلكتروني",
+    "address": "contact@cognitechx.com"
+  },
+  "hours": {
+    "title": "ساعات العمل",
+    "schedule": "الاثنين - الجمعة: 9:00 صباحاً - 6:00 مساءً بتوقيت وسط أوروبا"
+  },
+  "form": {
+    "firstName": "الاسم الأول",
+    "firstNamePlaceholder": "محمد",
+    "lastName": "اسم العائلة",
+    "lastNamePlaceholder": "أحمد",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "mohammed@example.com",
+    "subject": "الموضوع",
+    "subjectPlaceholder": "كيف يمكننا المساعدة؟",
+    "message": "الرسالة",
+    "messagePlaceholder": "أخبرنا عن مشروعك...",
+    "submit": "إرسال الرسالة",
+    "sending": "جاري الإرسال..."
+  },
+  "success": {
+    "title": "تم إرسال الرسالة بنجاح!",
+    "description": "سنعاود الاتصال بك في أقرب وقت ممكن."
+  },
+  "error": {
+    "title": "خطأ في إرسال الرسالة",
+    "description": "يرجى المحاولة مرة أخرى لاحقاً أو الاتصال بنا مباشرة عبر البريد الإلكتروني."
+  }
+}

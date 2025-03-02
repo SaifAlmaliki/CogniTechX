@@ -1,0 +1,38 @@
+{
+  "title": "Ready to Transform Your Business?",
+  "subtitle": "Let's discuss how CogniTechX can help you achieve your digital transformation goals. Fill out the form below and we'll get back to you as soon as possible.",
+  "location": {
+    "title": "Office Location",
+    "address": "Duisburg, 47057, Germany"
+  },
+  "email": {
+    "title": "Email",
+    "address": "contact@cognitechx.com"
+  },
+  "hours": {
+    "title": "Business Hours",
+    "schedule": "Monday - Friday: 9:00 AM - 6:00 PM CET"
+  },
+  "form": {
+    "firstName": "First Name",
+    "firstNamePlaceholder": "John",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Doe",
+    "email": "Email",
+    "emailPlaceholder": "john@example.com",
+    "subject": "Subject",
+    "subjectPlaceholder": "How can we help?",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your project...",
+    "submit": "Send Message",
+    "sending": "Sending..."
+  },
+  "success": {
+    "title": "Message sent successfully!",
+    "description": "We'll get back to you as soon as possible."
+  },
+  "error": {
+    "title": "Error sending message",
+    "description": "Please try again later or contact us directly via email."
+  }
+}

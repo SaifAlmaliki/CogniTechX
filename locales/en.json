@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "direction": "ltr"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "blog": "Blog",
+    "academy": "Academy",
+    "about": "About",
+    "contact": "Contact Us"
+  },
+  "academy": {
+    "title": "Digital Academy",
+    "description": "Empower your team with cutting-edge skills through our comprehensive training programs. Learn from industry experts and get hands-on experience with the latest technologies.",
+    "cta": "Explore All Courses"
+  },
+  "hero": {
+    "title": "Transforming Industry Through Digital Innovation",
+    "subtitle": "CogniTechX delivers cutting-edge IIoT, AI, and data solutions to drive your digital transformation journey.",
+    "cta": {
+      "primary": "Get Started",
+      "secondary": "Explore Services"
+    }
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "We empower industries to embrace digital transformation through innovative IIoT solutions, advanced AI capabilities, and comprehensive training programs. Our goal is to help businesses become more efficient, sustainable, and competitive in the global market.",
+    "cta": "Work with Us"
+  },
+  "values": {
+    "innovation": {
+      "title": "Innovation First",
+      "description": "We constantly push the boundaries of what's possible in industrial technology."
+    },
+    "partnership": {
+      "title": "Client Partnership",
+      "description": "We build lasting relationships by truly understanding our clients' needs."
+    },
+    "excellence": {
+      "title": "Excellence",
+      "description": "We maintain the highest standards in everything we do."
+    },
+    "reliability": {
+      "title": "Reliability",
+      "description": "Our solutions are built to be dependable and secure."
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "ai-solutions": {
+      "title": "AI Solutions",
+      "description": "Transform your operations with cutting-edge artificial intelligence and machine learning capabilities.",
+      "features": {
+        "agents": {
+          "title": "Agentic AI Services",
+          "description": "Autonomous AI agents for complex business processes"
+        },
+        "integration": {
+          "title": "AI Integration",
+          "description": "Seamless integration of AI into existing systems"
+        },
+        "analytics": {
+          "title": "Predictive Analytics",
+          "description": "Data-driven insights for informed decision making"
+        },
+        "vision": {
+          "title": "Computer Vision",
+          "description": "Advanced visual recognition and processing"
+        }
+      }
+    }
+  }
+}

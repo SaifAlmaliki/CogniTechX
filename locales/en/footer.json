@@ -1,0 +1,27 @@
+{
+  "company": {
+    "description": "Leading provider of Industrial IoT, AI Solutions, and Digital Transformation services."
+  },
+  "sections": {
+    "services": "Services",
+    "resources": "Resources"
+  },
+  "links": {
+    "iiot": "IIoT & MES Solutions",
+    "ai": "AI Solutions",
+    "data": "Data Platforms",
+    "academy": "Digital Academy",
+    "blog": "Blog",
+    "academyPortal": "Academy"
+  },
+  "social": {
+    "facebook": "Visit CogniTechX Facebook page",
+    "instagram": "Follow CogniTechX on Instagram",
+    "linkedin": "Connect with CogniTechX on LinkedIn"
+  },
+  "legal": {
+    "copyright": "© {year} CogniTechX. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

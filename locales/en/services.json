@@ -1,0 +1,91 @@
+{
+  "title": "Our Services",
+  "ai-solutions": {
+    "title": "AI Solutions",
+    "description": "Transform your operations with cutting-edge artificial intelligence and machine learning capabilities.",
+    "features": {
+      "agents": {
+        "title": "Agentic AI Services",
+        "description": "Autonomous AI agents for complex business processes"
+      },
+      "integration": {
+        "title": "AI Integration",
+        "description": "Seamless integration of AI into existing systems"
+      },
+      "analytics": {
+        "title": "Predictive Analytics",
+        "description": "Data-driven insights for informed decision making"
+      },
+      "vision": {
+        "title": "Computer Vision",
+        "description": "Advanced visual recognition and processing"
+      }
+    }
+  },
+  "data-platforms": {
+    "title": "Data Platform",
+    "description": "Transform raw data into actionable insights with our comprehensive data integration and analytics platform.",
+    "features": {
+      "analytics": {
+        "title": "Real-time Analytics",
+        "description": "Instant insights from live data streams"
+      },
+      "integration": {
+        "title": "Data Integration",
+        "description": "Unified data from multiple sources"
+      },
+      "dashboards": {
+        "title": "Visual Dashboards",
+        "description": "Interactive data visualization tools"
+      },
+      "models": {
+        "title": "Predictive Models",
+        "description": "Advanced forecasting capabilities"
+      }
+    }
+  },
+  "iiot-mes": {
+    "title": "IIoT & MES",
+    "description": "Connect and optimize your industrial operations with our advanced IoT and manufacturing solutions.",
+    "features": {
+      "sensors": {
+        "title": "Smart Sensors",
+        "description": "Advanced IoT sensor networks"
+      },
+      "monitoring": {
+        "title": "Process Monitoring",
+        "description": "Real-time operation tracking"
+      },
+      "maintenance": {
+        "title": "Predictive Maintenance",
+        "description": "AI-powered maintenance scheduling"
+      },
+      "quality": {
+        "title": "Quality Control",
+        "description": "Automated quality assurance"
+      }
+    }
+  },
+  "digital-academy": {
+    "title": "Digital Academy",
+    "description": "Empower your team with cutting-edge digital skills through our comprehensive training programs.",
+    "features": {
+      "learning": {
+        "title": "Custom Learning Paths",
+        "description": "Tailored educational programs"
+      },
+      "labs": {
+        "title": "Hands-on Labs",
+        "description": "Practical training environments"
+      },
+      "mentoring": {
+        "title": "Expert Mentoring",
+        "description": "Guidance from industry leaders"
+      },
+      "certification": {
+        "title": "Certification Tracks",
+        "description": "Industry-recognized credentials"
+      }
+    }
+  }
+}

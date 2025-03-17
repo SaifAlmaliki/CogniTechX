@@ -120,8 +120,7 @@ export function Navbar() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className={cn(
-                      "text-foreground/80 hover:text-foreground",
-                      pathname === "/blog" && "text-foreground font-medium"
+                      "text-foreground/80 hover:text-foreground"
                     )}
                   >
                     {t('navigation.blog')}
@@ -212,8 +211,7 @@ export function Navbar() {
                               target="_blank"
                               rel="noopener noreferrer"
                               className={cn(
-                                "text-muted-foreground",
-                                pathname === "/blog" && "text-foreground"
+                                "text-muted-foreground"
                               )}
                               onClick={() => setOpen(false)}
                             >

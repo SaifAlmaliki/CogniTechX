@@ -35,7 +35,7 @@ export function BlogGrid({ posts }: BlogGridProps) {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {posts.map((post) => (
             <Card key={post.id} className="group hover:shadow-lg transition-shadow">
-              <Link href={`/blog/${post.slug}`}>
+              <a href={`https://blog.cognitechx.com/${post.slug}`} target="_blank" rel="noopener noreferrer">
                 <div className="relative aspect-video overflow-hidden rounded-t-lg">
                   <img
                     src={post.image}
@@ -51,7 +51,7 @@ export function BlogGrid({ posts }: BlogGridProps) {
                     </Badge>
                   )}
                 </div>
-              </Link>
+              </a>
               <CardHeader>
                 <div className="flex items-center gap-4 mb-4">
                   <img
@@ -64,11 +64,11 @@ export function BlogGrid({ posts }: BlogGridProps) {
                     <p className="text-xs text-muted-foreground">{post.author.role}</p>
                   </div>
                 </div>
-                <Link href={`/blog/${post.slug}`}>
+                <a href={`https://blog.cognitechx.com/${post.slug}`} target="_blank" rel="noopener noreferrer">
                   <h2 className="text-2xl font-semibold group-hover:text-primary transition-colors">
                     {post.title}
                   </h2>
-                </Link>
+                </a>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground line-clamp-3">
@@ -85,10 +85,10 @@ export function BlogGrid({ posts }: BlogGridProps) {
                   </time>
                 </div>
                 <Button variant="ghost" size="sm" className="group/btn" asChild>
-                  <Link href={`/blog/${post.slug}`}>
+                  <a href={`https://blog.cognitechx.com/${post.slug}`} target="_blank" rel="noopener noreferrer">
                     Read more
                     <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
-                  </Link>
+                  </a>
                 </Button>
               </CardFooter>
             </Card>

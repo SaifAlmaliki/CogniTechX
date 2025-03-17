@@ -36,10 +36,10 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         <div className="absolute inset-0 flex items-end">
           <div className="container mx-auto px-4 py-12">
             <Button variant="ghost" asChild className="mb-6">
-              <Link href="/blog">
+              <a href="https://blog.cognitechx.com/" target="_blank" rel="noopener noreferrer">
                 <ArrowLeft className="mr-2 h-4 w-4" />
                 Back to Blog
-              </Link>
+              </a>
             </Button>
             <h1 className="text-4xl md:text-5xl font-bold mb-4 max-w-4xl">
               {post.title}
@@ -103,9 +103,11 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                 <h3 className="text-lg font-semibold mb-4">Related Articles</h3>
                 <div className="space-y-4">
                   {relatedPosts.map((relatedPost) => (
-                    <Link
+                    <a
                       key={relatedPost.id}
-                      href={`/blog/${relatedPost.slug}`}
+                      href={`https://blog.cognitechx.com/${relatedPost.slug}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="block group"
                     >
                       <div className="relative aspect-video rounded-lg overflow-hidden mb-2">
@@ -121,7 +123,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                       <p className="text-sm text-muted-foreground">
                         {relatedPost.readingTime}
                       </p>
-                    </Link>
+                    </a>
                   ))}
                 </div>
               </div>

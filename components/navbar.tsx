@@ -115,12 +115,17 @@ export function Navbar() {
                       </div>
                     </div>
                   ))}
-                  <Link href="/blog" className={cn(
-                    "text-foreground/80 hover:text-foreground",
-                    pathname === "/blog" && "text-foreground font-medium"
-                  )}>
+                  <a
+                    href="https://blog.cognitechx.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={cn(
+                      "text-foreground/80 hover:text-foreground",
+                      pathname === "/blog" && "text-foreground font-medium"
+                    )}
+                  >
                     {t('navigation.blog')}
-                  </Link>
+                  </a>
                   <a
                     href="https://academy.cognitechx.com"
                     target="_blank"
@@ -202,16 +207,18 @@ export function Navbar() {
                             </div>
                           ))}
                           <div className="flex flex-col space-y-2">
-                            <Link
-                              href="/blog"
-                              onClick={() => setOpen(false)}
+                            <a
+                              href="https://blog.cognitechx.com/"
+                              target="_blank"
+                              rel="noopener noreferrer"
                               className={cn(
                                 "text-muted-foreground",
                                 pathname === "/blog" && "text-foreground"
                               )}
+                              onClick={() => setOpen(false)}
                             >
                               {t('navigation.blog')}
-                            </Link>
+                            </a>
                             <a
                               href="https://academy.cognitechx.com"
                               target="_blank"

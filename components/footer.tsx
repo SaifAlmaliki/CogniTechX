@@ -87,9 +87,14 @@ export function Footer() {
               <h3 className="text-sm font-semibold">{t('footer.sections.resources')}</h3>
               <ul className="mt-4 space-y-4">
                 <li>
-                  <Link href="/blog" className="text-sm text-muted-foreground hover:text-foreground">
+                  <a
+                    href="https://blog.cognitechx.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-muted-foreground hover:text-foreground"
+                  >
                     {t('footer.links.blog')}
-                  </Link>
+                  </a>
                 </li>
                 <li>
                   <a
